@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: B_ItemTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in B_ItemTest
+priceIsCalculatedCorrectly(B_ItemTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `Item`.
+	at B_ItemTest.setup(B_ItemTest.java:18)
+
+toStringImplemented(B_ItemTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `Item`.
+	at B_ItemTest.setup(B_ItemTest.java:18)
+
+constructorExits(B_ItemTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `Item`.
+	at B_ItemTest.setup(B_ItemTest.java:18)
+
+methodIncreaseQuantityExits(B_ItemTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `Item`.
+	at B_ItemTest.setup(B_ItemTest.java:18)
+
+quantityIncreases(B_ItemTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `Item`.
+	at B_ItemTest.setup(B_ItemTest.java:18)
+
+toStringWorksCorrectly2(B_ItemTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `Item`.
+	at B_ItemTest.setup(B_ItemTest.java:18)
+
+toStringWorksCorrectly(B_ItemTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `Item`.
+	at B_ItemTest.setup(B_ItemTest.java:18)
+
+classIsPublic(B_ItemTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `Item`.
+	at B_ItemTest.setup(B_ItemTest.java:18)
+
+priceMethod(B_ItemTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `Item`.
+	at B_ItemTest.setup(B_ItemTest.java:18)
+
+noExtraVariables(B_ItemTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `Item`.
+	at B_ItemTest.setup(B_ItemTest.java:18)
+

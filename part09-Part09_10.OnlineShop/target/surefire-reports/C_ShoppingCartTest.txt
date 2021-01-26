@@ -1,0 +1,72 @@
+-------------------------------------------------------------------------------
+Test set: C_ShoppingCartTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 17, Errors: 0, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in C_ShoppingCartTest
+shoppingWorks(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+methodPrintExits(C_ShoppingCartTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+addingTheSameProductTwiceDoesNotCreateTwoItems(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+methodAddExits(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+oneProductMultipleTimesAndSeveralOtherProducts(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+hasMapOrList(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+constructorCheck(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+addingThreeDifferentProducsIncreasesCartsPrice(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+addingAnItemIncreasesCartsPrice(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+printingWorks(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+addingTheSameProductTwiceIncreasesCartsPrice(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+storeClassExists(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+methodPriceExits(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+noExtraVariables(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+priceOfAnEmptyCartIsZero(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+theClassShoppingCartExits(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+
+addingTwoDifferentProductsIncreasesCartsPrice(C_ShoppingCartTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ShoppingCart`.
+	at C_ShoppingCartTest.setup(C_ShoppingCartTest.java:21)
+

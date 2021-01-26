@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: A_WarehouseTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.081 s <<< FAILURE! - in A_WarehouseTest
+productsMethodWorks(A_WarehouseTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Method products() of class Warehouse missing.
+	at A_WarehouseTest.products(A_WarehouseTest.java:432)
+	at A_WarehouseTest.productsMethodWorks(A_WarehouseTest.java:384)
+
+stockMethodWorksWithProductInTheWarehouse(A_WarehouseTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: w = new Warehouse(); w.addProduct("milk", 3, 10); v.addProduct("coffee", 5, 7); w.stock("milk");  expected:<10> but was:<0>
+	at A_WarehouseTest.stockMethodWorksWithProductInTheWarehouse(A_WarehouseTest.java:224)
+
+methodProductsExits(A_WarehouseTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: For the Warehouse class, implement the method public Set<String>  products()
+	at A_WarehouseTest.methodProductsExits(A_WarehouseTest.java:355)
+
+takeReducesQuantity(A_WarehouseTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+w = new Warehouse(); 
+w.addProduct("milk", 3, 10); 
+w.addProduct("coffee", 5, 7); 
+w.take("coffee");
+w.stock("coffee");  expected:<6> but was:<0>
+	at A_WarehouseTest.takeReducesQuantity(A_WarehouseTest.java:303)
+
